@@ -31,9 +31,6 @@
   //# => Solargraph gem not found. Run `gem install solargraph` or update your Gemfile.
   "updateContentCommand": "bundle install",
   "postCreateCommand": "",
-  "postAttachCommand": {
-    "server": "rails server"
-  },
   "customizations": {
     "codespaces": {
       "openFiles": [
@@ -91,9 +88,6 @@
         }
       }
     }
-  },
-  "remoteEnv": {
-    "EDITOR": "code --wait"
   },
   "portsAttributes": {
     "3000": {
